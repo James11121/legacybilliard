@@ -533,5 +533,58 @@ button {
     cursor: pointer;
   } 
 
+   /* Reset default margin & padding */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #ffffff;
+  background-color: #1a1a1a;
+  background-image: url('pattern.png'); /* bisa ganti atau hapus kalau ingin clean */
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+header, section, footer {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.6); /* semi-transparent box */
+  border-radius: 12px;
+  margin-top: 20px;
+}
+
+h1, h2 {
+  color: #ffcc00;
+  border-bottom: 2px solid #ffcc00;
+  padding-bottom: 5px;
+}
+
+a {
+  color: #66ccff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.9em;
+  color: #cccccc;
+  margin-bottom: 20px;
+}
+
+
   
   
