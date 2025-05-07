@@ -572,10 +572,12 @@ a:hover {
 ul {
   list-style-type: none;
   padding: 0;
+  font-size: 30px;
 }
 
 li {
   margin-bottom: 8px;
+  font-size: 30px;
 }
 
 footer {
@@ -643,6 +645,53 @@ footer {
   body {
     font-size: 14px;
   }
+}
+
+#location img {
+  width: 70%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 10px; 
+}
+
+#location {
+  text-align: left;
+}
+
+#instagram img {
+  width: 70%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 10px; 
+}
+
+#instagram {
+  text-align: left;
+}
+
+.background {
+  background-image: url('picture/legacybg1.jpg');
+  background-size: auto;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+  opacity: 70%;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.7); /* opacity 70% */
+  color: white;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
 }
 
 
